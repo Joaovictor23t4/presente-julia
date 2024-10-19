@@ -1,7 +1,7 @@
 <script setup>
 import { ref, watch } from "vue";
 
-const slider = ref(2.42);
+const slider = ref(2.89);
 const background = ref('');
 
 watch(slider, (oldValue, newValue) => {
@@ -24,7 +24,7 @@ watch(slider, (oldValue, newValue) => {
           <input type="range" class="slider" min="0.00" max="4.22" step="0.01" v-model="slider" name="" id="">
         </div>
         <div class="container-tempo">
-          <div class="tempo-atual">{{ slider.toString().replace(".", ":") }}</div>
+          <div class="tempo-atual">2:42</div>
           <div class="tempo-total">4:22</div>
         </div>
         <div class="container-reproducao">
@@ -116,7 +116,7 @@ watch(slider, (oldValue, newValue) => {
   appearance: none;
   width: 100%;
   height: 2px;
-  background: linear-gradient(to right, white 56%, white 0%, gray 0%, gray 100%);
+  background: linear-gradient(to right, white 68%, white 0%, gray 0%, gray 100%);
 }
 
 .slider::-webkit-slider-thumb {
