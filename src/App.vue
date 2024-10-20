@@ -68,16 +68,18 @@ watch(slider, (oldValue, newValue) => {
 }
 
 .container-capa {
-  height: 420px;
+  height: 495px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
 .capa {
-  /* width: 80%; */
-  width: 352.8px;
-  height: 352.8px;
+  position: relative;
+  top: 55px;
+  width: 80%;
+  width: 440px;
+  height: 440px;
   border-radius: 10px;
 }
 
@@ -85,12 +87,13 @@ watch(slider, (oldValue, newValue) => {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
   width: 100%;
   height: 421px;
 }
 
 .container-nome {
-  width: 352px;
+  width: 440px;
 }
 
 .nome-musica  {
@@ -107,7 +110,7 @@ watch(slider, (oldValue, newValue) => {
 }
 
 .container-player {
-  width: 352px;
+  width: 440px;
   margin-top: 50px;
 }
 
@@ -130,7 +133,7 @@ watch(slider, (oldValue, newValue) => {
 }
 
 .container-tempo {
-  width: 352px;
+  width: 440px;
   display: flex;
   justify-content: space-between;
 }
@@ -143,7 +146,7 @@ watch(slider, (oldValue, newValue) => {
 }
 
 .container-reproducao {
-  width: 352px;
+  width: 440px;
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
